@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+</head>
+
+<body>
+    <table border="1" cellspacing="0" cellpadding="5">
+        <form action="#">
+            <!-- Text Input -->
+            <tr>
+                <td align="right">
+                    <label for="txt">Text:</label>
+                </td>
+                <td><input type="text" id="txt"></td>
+            </tr>
+
+            <!-- Password Input -->
+            <tr>
+                <td align="right">
+                    <label for="pass">Password:</label>
+                </td>
+                <td><input type="password" id="pass"></td>
+            </tr>
+
+            <!-- Radio Button -->
+            <tr>
+                <td colspan="2" align="center">
+                    <label for="radio1">Radio 1</label>
+                    <input type="radio" id="radio1" name="radio" />
+                    <label for="radio2">Radio 2</label>
+                    <input type="radio" id="radio2" name="radio" />
+                </td>
+            </tr>
+
+            <!-- Checkbox -->
+            <tr>
+                <td colspan="2" align="center">
+                    <label for="checkbox1">checkbox 1</label>
+                    <input type="checkbox" id="checkbox1" />
+                    <label for="checkbox2">checkbox 2</label>
+                    <input type="checkbox" id="checkbox2" />
+                </td>
+            </tr>
+
+            <!-- Combo Box -->
+            <tr>
+                <td align="right">
+                    <label for="combobox">Combo Box:</label>
+                </td>
+                <td>
+                    <select id="combobox">
+                        <option>Option 1</option>
+                        <option>Option 2</option>
+                        <option>Option 3</option>
+                    </select>
+                </td>
+            </tr>
+
+            <!-- Text Area -->
+            <tr>
+                <td align="right">
+                    <label for="txtarea">Textarea:</label>
+                </td>
+                <td>
+                    <textarea id="txtarea"></textarea>
+                </td>
+            </tr>
+
+            <!-- Button -->
+            <tr>
+                <td colspan="2" align="center">
+                    <button type="submit">Button</button>
+                </td>
+            </tr>
+        </form>
+    </table>
+</body>
+
+</html>
